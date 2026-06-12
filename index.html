@@ -58,10 +58,10 @@
         }
 
         .logo-icon {
-            background-color: #0d9488; /* Verde químico/clínico */
+           /* background-color: #0d9488; /* Verde químico/clínico */
             color: #ffffff;
-            width: 40px;
-            height: 40px;
+            width: 400px;
+            height: 70px;
             border-radius: 10px;
             display: flex;
             align-items: center;
@@ -832,12 +832,14 @@
     <header class="navbar">
         <div class="logo-container">
             <div class="logo-icon">
-                <i class="fa-solid fa-flask-vial"></i>
+                <img src="imagenes/logo_izq.png" style="width: 250px; max-width: 100%; height: auto;">
             </div>
-            <div>
+
+            <link rel="icon" type="image/png" href="imagenes/logo_pestaña.png">
+            <!--div>
                 <span class="logo-text">Elementa</span>
                 <span class="logo-subtext">Insumos y equipamentos de laboratorio</span>
-            </div>
+            </div-->
         </div>
         <div class="nav-actions-container">
             <nav>
@@ -880,7 +882,7 @@
             <!-- Columna Imagen Lateral (Vidriería de Laboratorio) -->
             <div class="about-image-column">
                 <div class="image-card">
-                    <img src="https://images.unsplash.com/photo-1532187643603-ba119ca4109e?q=80&w=600&auto=format&fit=cover" alt="Cristalería de Laboratorio Elementa">
+                    <img src="imagenes/logo_inicio.png">
                 </div>
             </div>
         </div>
@@ -970,6 +972,154 @@
                     </div>
                 </div>
 
+                <!-- PRODUCTO 4 Espectrofotómetro Uv-vis De Laboratorio -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="product-badge">Espectrofotómetro Uv-vis De Laboratorio.</span>
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_785224-MLC100284948825_122025-F-espectrofotometro-uv-vis-de-laboratorio-modelo-721.webp">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Equipamento</span>
+                        <h3 class="product-title">Espectrofotómetro Uv-vis De Laboratorio</h3>
+                        <p class="product-description">Ofrece lecturas directas de transmisión o absorción en una pantalla LED.</p>
+                        <div class="product-footer">
+                            <div class="product-price-row">
+                                <span class="product-price">$399.990</span>
+                            </div>
+                            <div class="product-actions">
+                                <button class="btn-secondary" onclick="showProductDetails('Espectrofotómetro Uv-vis De Laboratorio', 'Sistema Óptico: Haz simple con rejilla de 1200 líneas/mm.\n-Rango de Longitud de Onda: 340-1020 nm.\n-Ancho de Banda Espectral: 6 nm.\n-Precisión de Longitud de Onda: 3 nm.\n-Repetibilidad de Longitud de Onda: 1 nm.\n-Precisión Fotométrica: 1% T.\n-Repetibilidad Fotométrica: 0.5% T.\n-Rango Fotométrico: 0-200% T, -0.3A 3A.\n-Luz Dispersa: 0.5% T.\n-Estabilidad: 0.004 A.' )">Ficha Técnica</button>
+                                <button class="btn-add-cart" onclick="addToCart(3, 'Espectrofotómetro', 399990, 'https://http2.mlstatic.com/D_NQ_NP_2X_785224-MLC100284948825_122025-F-espectrofotometro-uv-vis-de-laboratorio-modelo-721.webp')">
+                                    <i class="fa-solid fa-flask"></i> Añadir
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                 <!-- PRODUCTO 5 Vaso Precipitado Graduado De Vidrio Borosilicato 250 Ml-->
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="product-badge">Vaso Precipitado.</span>
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_862638-MLC77602437445_072024-F.webp">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Equipamento</span>
+                        <h3 class="product-title">Vaso Precipitado Graduado De Vidrio Borosilicato 250 Ml</h3>
+                        <p class="product-description">Vaso precipitado de laboratorio. Se usa a temperatura ambiente o bajo calentamiento y se puede usar como recipiente de reacción para preparar soluciones, sustancias disueltas y cantidades más grandes de sustancias.</p>
+                        <div class="product-footer">
+                            <div class="product-price-row">
+                                <span class="product-price">$4.990</span>
+                            </div>
+                            <div class="product-actions">
+                                <button class="btn-secondary" onclick="showProductDetails('Vaso precipitado', 'Especificaciones:\n-Nombre: Vaso de vidrio.\n-Material: Vidrio de borosilicato.\n-Capacidad: 250 ml.\n-Color: Transparente.' )">Ficha Técnica</button>
+                                <button class="btn-add-cart" onclick="addToCart(3, 'Vaso Precipitado ', 4990, 'https://http2.mlstatic.com/D_NQ_NP_2X_862638-MLC77602437445_072024-F.webp')">
+                                    <i class="fa-solid fa-flask"></i> Añadir
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PRODUCTO 6 Matraz Aforado Con Tapa Clase A 250 Ml-->
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="product-badge">Matraz Aforado.</span>
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_688844-MLA112452798371_052026-F.webp">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Equipamento</span>
+                        <h3 class="product-title">Matraz Aforado Con Tapa Clase A 250 M</h3>
+                        <p class="product-description">Ideal para la destilación, su fondo redondo permite una mezcla homogénea de líquidos, maximizando la eficiencia en el proceso.</p>
+                        <div class="product-footer">
+                            <div class="product-price-row">
+                                <span class="product-price">$10.990</span>
+                            </div>
+                            <div class="product-actions">
+                                <button class="btn-secondary" onclick="showProductDetails('Matraz aforado', 'Capacidad de 250 mL.\n-Altura de 26.0 cm\n-Diámetro de 8.0 cm.' )">Ficha Técnica</button>
+                                <button class="btn-add-cart" onclick="addToCart(3, 'Matráz aforado ', 10990, 'https://http2.mlstatic.com/D_NQ_NP_2X_688844-MLA112452798371_052026-F.webp')">
+                                    <i class="fa-solid fa-flask"></i> Añadir
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PRODUCTO 7 Agitador Magnético Con Placa Calefactora -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="product-badge">Agitador Magnético.</span>
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_625029-CBT109432120558_042026-F.webp">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Equipamento</span>
+                        <h3 class="product-title">Agitador Magnético Con Placa Calefactora</h3>
+                        <p class="product-description">Agitador magnético con placa calefactora digital Excelente capacidad de agitación y calentamiento.</p>
+                        <div class="product-footer">
+                            <div class="product-price-row">
+                                <span class="product-price">$236.990</span>
+                            </div>
+                            <div class="product-actions">
+                                <button class="btn-secondary" onclick="showProductDetails('Agitador Magnético', '600 W, temperatura máxima: 536 F. Con un revestimiento cerámico, proporciona una conductividad térmica perfecta y un enfriamiento rápido. Potente capacidad de mezcla: la placa calefactora de laboratorio tiene una capacidad máxima de 5 litros y un rango de velocidad de 100 a 1500 rpm que se puede ajustar fácilmente.' )">Ficha Técnica</button>
+                                <button class="btn-add-cart" onclick="addToCart(3, 'Agitador magnético ', 236990, 'https://http2.mlstatic.com/D_NQ_NP_2X_625029-CBT109432120558_042026-F.webp')">
+                                    <i class="fa-solid fa-flask"></i> Añadir
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- PRODUCTO 8 Manto Calefactor  -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="product-badge">Manto calefactor.</span>
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_628471-MLC90454139133_082025-F.webp">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Equipamento</span>
+                        <h3 class="product-title">Manto Calefactor De Laboratorio Para Balones De 1 Litro</h3>
+                        <p class="product-description">Dispositivo de calefacción por contacto, diseñado para calentar líquidos en balones de vidrio de fondo redondo de hasta 1 litro de capacidad.</p>
+                        <div class="product-footer">
+                            <div class="product-price-row">
+                                <span class="product-price">$95.000</span>
+                            </div>
+                            <div class="product-actions">
+                                <button class="btn-secondary" onclick="showProductDetails('Manto Calefactor', 'Capacidad: 1000 mL (balón de fondo redondo).\n-Tipo de control: PID analógico.\n-Ajuste de temperatura: perilla manual.\n-Visualización: dial con aguja.\n-Rango de temperatura: ambiente hasta 380 °C.\n-Potencia nominal: 350 W.\n-Alimentación: 220 V ±10 % / 50 Hz.\n-Calefacción: por contacto, sin agitación.\n-Material calefactor: fibra de vidrio sin álcalis.\n-Dimensiones exteriores aproximadas: 230 × 180 mm.\n-Diámetro interior útil: aprox. 65 mm' )">Ficha Técnica</button>
+                                <button class="btn-add-cart" onclick="addToCart(3, 'Manto calefactor ', 95000, 'https://http2.mlstatic.com/D_NQ_NP_2X_628471-MLC90454139133_082025-F.webp')">
+                                    <i class="fa-solid fa-flask"></i> Añadir
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PRODUCTO 9 Conjunto De Monitor De Ph-metro  -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="product-badge">Conjunto De Monitor De Ph-metro.</span>
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_799110-MLC99475481298_112025-F.webp">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Equipamento</span>
+                        <h3 class="product-title">Conjunto De Monitor De Ph-metro Digital De Calidad Del Agua</h3>
+                        <p class="product-description">Kit de medidor de calidad del agua, perfectamente adecuado para acuicultura, laboratorios, tratamiento de aguas residuales.</p>
+                        <div class="product-footer">
+                            <div class="product-price-row">
+                                <span class="product-price">$36.990</span>
+                            </div>
+                            <div class="product-actions">
+                                <button class="btn-secondary" onclick="showProductDetails('Monitor Ph-metro', 'Tipo de artículo: Medidor de pH.\n-Material: Plástico.\n-Peso: Aproximadamente 361 g / 12.7 oz.\n-Rango de medición: 0.00 - 14.00 pH.\n-Resolución: 0.01 pH.\n-Precisión: +/- 0.1 pH.\n-Batería: 4 x 1.5V (AG-13) (baterías no incluidas).' )">Ficha Técnica</button>
+                                <button class="btn-add-cart" onclick="addToCart(3, 'Conductivímetro ', 36990, 'https://http2.mlstatic.com/D_NQ_NP_2X_799110-MLC99475481298_112025-F.webp')">
+                                    <i class="fa-solid fa-flask"></i> Añadir
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+              
+
             </div>
         </div>
     </section>
@@ -1022,6 +1172,8 @@
     <!-- PIE DE PÁGINA -->
     <footer style="background-color: #115e59; color: #ccfbf1; text-align: center; padding: 40px 20px; font-size: 0.9rem; margin-top: auto;">
         <p>&copy; 2026 Elementa - Insumos y equipamentos. Todos los derechos reservados - Productos con certificación internacional.</p>
+        <p>Av.Vicuña Mackena 3864, Macul, RM.</p>
+        <p>Contacto: (02) 2652 69 - ElementaLTDA@gmail.com</p> 
     </footer>
 
     <!-- ==========================================================================
